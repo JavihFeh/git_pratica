@@ -9,10 +9,13 @@ void bubble_sort(int v[]);
 int main()
 {
   srand(time(NULL));
+
   int i, vet[1000];
+
   for(i=0; i < 1000; i++){
       vet[i] = rand();
   }
+
   bubble_sort(vet);
   return 0;
 }
@@ -26,8 +29,8 @@ void bubble_sort(int v[]){
         for (j = 0; j < k; j++) {
 
             if (v[j] > v[j + 1]) {
-                aux          = v[j];
-                v[j]     = v[j + 1];
+                aux = v[j];
+                v[j] = v[j + 1];
                 v[j + 1] = aux;
             }
         }
