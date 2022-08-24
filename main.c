@@ -14,12 +14,11 @@ int main()
   
   quick_sort(vet, 0, 1000 - 1);
   
-  
-  printf("nnValores ordenadosn");
+  printf("O pivot é %d \n", vet[500])
+  printf("Valores ordenados \n");
   for(i = 0; i < 1000; i++)
   {
-    printf("O pivot é %d", vet[500])
-    printf("%dn", vet[i]);
+    printf("%d, ", vet[i]);
   }
   system("pause");
   return 0;
