@@ -45,4 +45,3 @@ void media_mediana(int v[]){
   printf("\nA mediana do vetor e: %.2f", mediana);
     
 }
-
